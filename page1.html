@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CH Koteshwar Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">projects</a>
+    <a href="#resume">Portefolio</a>
+    <a href="#contact">Contact</a>
+    <div class="animation start-home"></div>
+  </nav>
+
+  <section id="home">
+
+    <div class="background">
+
+      <!-- Background image with shield overlay -->
+      <!-- Your name and basic overview -->
+
+      <div class="center-content">
+        <div class="name2">
+          <p>I'am</p>
+        </div>
+        <div class="name1">
+          <p>KOTESHWAR</p>
+        </div>
+        <div class="name3">
+          <p>NICE TO SEE YOU HERE</p>
+        </div>
+        <!-- <p>Basic overview of yourself...</p> -->
+        <!-- <a href="#about" class="read-more">Read More</a> -->
+      </div>
+    </div>
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class='air air1'></div>
+    <div class='air air2'></div>
+    <div class='air air3'></div>
+    <div class='air air4'></div>
+
+
+
+
+  </section>
+
+  <!-- Home Page -->
+
+
+  <!-- About Me Page -->
+  <!-- <div data-aos="zoom-in-up"><h1>koti</h1></div> -->
+  <div id="about" class="content1">
+    <a>ABOUT</a>
+  </div>
+  <section id="about" class="page" data-aos="zoom-in-up" data-aos-duration=20000 data-aos-delay=400
+    data-aos-easing="ease-in-out">
+    <div class="area1">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="content2">
+        <br>
+        <br>
+        <a>i am koteshwar, thank you for showing interest to know about me. I am a ece student at gokaraju rangaraju
+          engineering college. I am correctly diving deep into data structures and it is nothing to do with my course.
+          but I am very interested in AI / machine learning. I wanted to integrate it with the electronics this may be
+          the future as ai is developing in all the fields and it is few steps away from entering into electronics. if
+          this happens lot of this get simpler. the path of me knowing about that has started in the first year of my
+          college by building some projects based on ml.2 nd year of my college has just went testing the AI tools . I
+          built a website using that. not one but the website you are looking at now is built of ai/ChatGPT. coming to
+          electronics I am not 10 % of what I want to be but I am not a kind of giving up guy . I definitely work on it.
+          you can find what kind of project I have built below in full detail</a>
+        <!-- Your detailed information -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Page -->
+  <section id="projects" class="page">
+    <div class="content">
+      <!-- Showcase your projects -->
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Description of Project 1...</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Description of Project 2...</p>
+      </div>
+      <!-- Add more projects as needed -->
+    </div>
+  </section>
+  <section id="resume" class="page">
+    <div class="content">
+      <!-- Your detailed information -->
+      <h2>About Me</h2>
+      <p>Detailed information about yourself...</p>
+    </div>
+  </section>
+
+  <!-- Contact Page -->
+  <section id="contact" class="page">
+    <div class="content">
+      <!-- Contact information -->
+      <h2>Contact</h2>
+      <p>Contact details...</p>
+    </div>
+  </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
+<style>
+  /* General styles */
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('person.jpg');  */
+    /* Add background image to body */
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    /* Ensure the background image covers the entire viewport */
+    background-position: center;
+    /* Center the background image */
+  }
+
+  /* Navigation bar */
+  nav {
+    margin: 0px auto 0;
+
+    position: relative;
+    width: 2200px;
+    height: 50px;
+    background-color: rgb(8, 25, 73);
+    border-radius: 8px;
+    font-size: 0;
+  }
+
+  nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+
+  nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+
+  a:nth-child(1) {
+    width: 100px;
+  }
+
+  a:nth-child(2) {
+    width: 110px;
+  }
+
+  a:nth-child(3) {
+    width: 100px;
+  }
+
+  a:nth-child(4) {
+    width: 160px;
+  }
+
+  a:nth-child(5) {
+    width: 120px;
+  }
+
+  nav .start-home,
+  a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 800px;
+    background-color: #1abc9c;
+  }
+
+  nav .start-about,
+  a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 900px;
+    background-color: #e74c3c;
+  }
+
+  nav .start-blog,
+  a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 1010px;
+    background-color: #3498db;
+  }
+
+  nav .start-portefolio,
+  a:nth-child(4):hover~.animation {
+    width: 160px;
+    left: 1110px;
+    background-color: #9b59b6;
+  }
+
+  nav .start-contact,
+  a:nth-child(5):hover~.animation {
+    width: 120px;
+    left: 1270px;
+    background-color: #e67e22;
+  }
+
+  /* body {
+  font-size: 12px;
+  font-family: sans-serif;
+  background: #2c3e50;
+}
+h1 {
+  text-align: center;
+  margin: 40px 0 40px;
+  text-align: center;
+  font-size: 30px;
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Cherry Swash', cursive;
+}
+
+p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+} */
+
+  span {
+    color: #2BD6B4;
+  }
+
+  /* Page sections */
+  .page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(129, 40, 40);
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+  }
+
+  .page h1.page h2,
+  .page h3,
+  .page p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .background {
+    /* Background image with overlay */
+    height: 95%;
+    width: 100%;
+    background-image: url('person.JPG');
+    /* background-size: 100% 100%; */
+    /* position: relative; */
+    background-color: rgb(156, 83, 83);
+    background-size: cover;
+    /* Ensure the background image covers the entire viewport */
+    background-position: center;
+  }
+
+  .background::after {
+    /* Royal blue transparent shield overlay */
+    content: '';
+    position: absolute;
+    /* background-image: url(person2.png); */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(8, 0, 84, 0.234);
+    /* Adjust transparency as needed */
+  }
+
+  .background h1 {
+    font-size: 5rem;
+  }
+
+  .background .read-more {
+    /* Read more button */
+    background-color: gold;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .content1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Audiowide", sans-serif;
+    ;
+  }
+
+  .content2 {
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Audiowide", sans-serif;
+  }
+
+  /* About Me and Contact sections */
+  .content {
+    text-align: center;
+  }
+
+  .center-content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+  .name1 {
+    font-size: 10em;
+    /* Adjust the font size as needed */
+    background: linear-gradient(to right, gold, gold);
+    /* Adjust gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Add black outline */
+    text-shadow: 3px 3px 4px #e73c3c;
+    /* Adjust the shadow position and blur as needed */
+  }
+
+  .name2 {
+    font-size: 7em;
+    /* Adjust the font size as needed */
+    background: linear-gradient(to right, gold, gold);
+    /* Adjust gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Add black outline */
+    text-shadow: 2px 2px 0px rgb(183, 159, 78);
+    /* Adjust the shadow position and blur as needed */
+  }
+
+  .name3 {
+    font-size: 2em;
+    /* Adjust the font size as needed */
+    background: linear-gradient(to right, rgb(39, 33, 33), rgb(50, 43, 43));
+    /* Adjust gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Add black outline */
+    text-shadow: 2px 2px 2px rgb(201, 180, 123);
+    /* Adjust the shadow position and blur as needed */
+  }
+
+
+
+
+  section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff58;
+    overflow: hidden;
+  }
+
+  section .air {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(https://1.bp.blogspot.com/-xQUc-TovqDk/XdxogmMqIRI/AAAAAAAACvI/AizpnE509UMGBcTiLJ58BC6iViPYGYQfQCLcBGAsYHQ/s1600/wave.png);
+    background-size: 900px 100px
+  }
+
+  section .air.air1 {
+    animation: wave 20s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 40px;
+  }
+
+  section .air.air2 {
+    animation: wave2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: 0s;
+    bottom: 50px;
+  }
+
+  section .air.air3 {
+    animation: wave 10s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: 0s;
+    bottom: 60px;
+  }
+
+  section .air.air4 {
+    animation: wave2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: 0s;
+    bottom: 70px;
+  }
+
+  @keyframes wave {
+    0% {
+      background-position-x: 0px;
+    }
+
+    100% {
+      background-position-x: 1000px;
+    }
+  }
+
+  @keyframes wave2 {
+    0% {
+      background-position-x: 0px;
+    }
+
+    100% {
+      background-position-x: -1000px;
+    }
+  }
+
+
+  @keyframes animate {
+
+    0%,
+    100% {
+      background-position: left top;
+    }
+
+    25% {
+      background-position: right bottom;
+    }
+
+    50% {
+      background-position: left bottom;
+    }
+
+    75% {
+      background-position: right top;
+    }
+  }
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  .context {
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+
+  }
+
+  .context h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+  }
+
+
+  .area {
+    background: #ffffff;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    width: 100%;
+    height: 100vh;
+
+
+  }
+
+  .area1 {
+    background: #0c074ec2;
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    width: 60%;
+    height: 60vh;
+    border-radius: 30px;
+
+
+  }
+
+  .circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.251);
+    animation: animate 25s linear infinite;
+    bottom: -5px;
+
+  }
+
+  .circles li:nth-child(1) {
+    left: 20%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+  }
+
+
+
+  .circles li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 1s;
+    animation-duration: 12s;
+  }
+
+  .circles li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 3s;
+  }
+
+  .circles li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+  }
+
+  .circles li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+  }
+
+  .circles li:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 2s;
+  }
+
+  .circles li:nth-child(7) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 6s;
+  }
+
+  .circles li:nth-child(8) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 8s;
+    animation-duration: 45s;
+  }
+
+  .circles li:nth-child(9) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+  }
+
+  .circles li:nth-child(10) {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+  }
+
+  .circles li:nth-child(20) {
+    left: 45%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+  }
+
+  .circles li:nth-child(21) {
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+  }
+
+  .circles li:nth-child(22) {
+    left: 60%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 3s;
+    animation-duration: 35s;
+  }
+
+  .circles li:nth-child(11) {
+    left: 20%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+  }
+
+
+
+  .circles li:nth-child(12) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+    animation-duration: 12s;
+  }
+
+  .circles li:nth-child(13) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 6s;
+  }
+
+  .circles li:nth-child(14) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 10s;
+    animation-duration: 18s;
+  }
+
+  .circles li:nth-child(15) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 12s;
+  }
+
+  .circles li:nth-child(16) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 13s;
+  }
+
+  .circles li:nth-child(17) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+
+  .circles li:nth-child(18) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 5s;
+    animation-duration: 45s;
+  }
+
+  .circles li:nth-child(19) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+  }
+
+
+  @keyframes animate {
+
+    0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+    }
+
+    100% {
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+    }
+
+  }
+</style>
